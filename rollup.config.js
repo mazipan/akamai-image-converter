@@ -1,5 +1,6 @@
 import babel from 'rollup-plugin-babel'
 import uglify from 'rollup-plugin-uglify'
+const license = require('rollup-plugin-license')
 
 export default {
   input: 'akamai-image-converter.js',
@@ -12,6 +13,9 @@ export default {
     babel({
       exclude: 'node_modules/**'
     }),
-    uglify()
+    uglify(),
+    license({
+      banner: `akamai-image-converter v<%= pkg.version %>`,
+    })
   ]
 }
