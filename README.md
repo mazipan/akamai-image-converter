@@ -51,4 +51,4 @@ let result = this._withDimension(TEST_IMAGE, width, height)
 
 
 
-Copyright © 2017 by [Irfan Maulana](https://github.com/mazipan/)
+Copyright © 2018 by [Irfan Maulana](https://github.com/mazipan/)
