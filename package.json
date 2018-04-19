@@ -6,12 +6,7 @@
   "author": "Irfan Maulana (https://github.com/mazipan/)",
   "private": false,
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --color --open",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
-    "pack": "cross-env NODE_ENV=production webpack --progress --hide-modules --config webpack.config.dist.js",
-    "lint": "./node_modules/.bin/eslint --ext .js,.vue src test/*.js --fix",
-    "test": "./node_modules/.bin/jest --coverage",
-    "dist": "npm run build && npm run pack"
+    "test": "./node_modules/.bin/jest --coverage"
   },
   "homepage": "https://github.com/mazipan/akamai-image-converter/",
   "main": "akamai-image-converter.js",
@@ -31,10 +26,10 @@
     "image optimization",
     "akamai image converter"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
+    "babel-jest": "22.4.3",
     "babel-loader": "^7.1.4",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-env": "^1.6.1",
@@ -42,6 +37,7 @@
     "cross-env": "^5.1.4",
     "css-loader": "^0.28.11",
     "file-loader": "^1.1.11",
+    "jest": "^22.4.3",
     "webpack": "^4.6.0",
     "webpack-dev-server": "^3.1.3"
   }
