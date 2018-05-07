@@ -1,7 +1,7 @@
 {
   "name": "akamai-image-converter",
   "description": "🏞 Simple javascript util for Akamai image converter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "author": "Irfan Maulana (https://github.com/mazipan/)",
   "private": false,
