@@ -44,9 +44,9 @@ You can define your combination by your self
 import imageConverter from 'akamai-image-converter'
 
 // you can call these available function
-let result = this._withOutputFormat(TEST_IMAGE, format)
-let result = this._withQuality(TEST_IMAGE, quality)
-let result = this._withDimension(TEST_IMAGE, width, height)
+let result = imageConverter._withOutputFormat(TEST_IMAGE, format)
+let result = imageConverter._withQuality(TEST_IMAGE, quality)
+let result = imageConverter._withDimension(TEST_IMAGE, width, height)
 ```
 
 
